@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Learn Trading With Munaaf</title>
+<meta name="description" content="Privacy Policy of Learn Trading With Munaaf: what information we collect, how we use it, Meta Pixel and cookies, your rights and how to request deletion of your data.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --frost:#EEF3F8;
+  --paper:#FFFFFF;
+  --ink:#0F1F3D;
+  --ink-soft:#4A5878;
+  --line:#D5DEEA;
+  --teal:#0B7A75;
+  --teal-soft:#DDF1EF;
+  --red:#C8442B;
+  --red-soft:#FBE9E4;
+  --head:'Bricolage Grotesque','Trebuchet MS',Arial,sans-serif;
+  --body:'Newsreader',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{background:var(--frost);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:4px}
+
+/* ---------- Hero ---------- */
+.hero{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.hero-inner{max-width:1180px;margin:0 auto;padding:64px 24px 72px;position:relative;z-index:2;display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:end}
+.brand{font-family:var(--head);font-weight:700;font-size:17px;letter-spacing:.2px;display:flex;align-items:center;gap:10px;margin-bottom:44px}
+.brand i{width:28px;height:28px;border-radius:8px;background:var(--teal);display:grid;place-items:center}
+.brand i svg{width:16px;height:16px}
+h1{font-family:var(--head);font-weight:800;font-size:clamp(40px,7vw,76px);line-height:1.02;letter-spacing:-1.5px}
+.hero p.lead{margin-top:22px;max-width:560px;color:#C9D4E8;font-size:20px;line-height:1.55}
+.meta{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px}
+.chip{font-family:var(--head);font-size:14px;font-weight:500;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:6px 14px;color:#E5ECF8}
+.chart{width:100%;height:auto;opacity:.95}
+.chart .up{fill:var(--teal)}
+.chart .down{fill:var(--red)}
+.chart line{stroke:#7F90B3;stroke-width:2}
+
+/* ---------- Layout ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:48px 24px 40px;display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:start}
+nav.toc{position:sticky;top:24px;font-family:var(--head)}
+nav.toc h2{font-size:15px;font-weight:700;color:var(--ink-soft);margin-bottom:12px}
+nav.toc ol{list-style:none;border-left:2px solid var(--line)}
+nav.toc a{display:block;padding:7px 0 7px 16px;margin-left:-2px;border-left:2px solid transparent;color:var(--ink-soft);text-decoration:none;font-size:15px;font-weight:500;line-height:1.35}
+nav.toc a:hover{color:var(--ink)}
+nav.toc a.active{color:var(--teal);border-left-color:var(--teal);font-weight:700}
+
+main{min-width:0}
+.notice{background:var(--teal-soft);border:1px solid #A9DAD6;border-radius:14px;padding:20px 24px;margin-bottom:40px;font-size:18px}
+.notice strong{font-family:var(--head)}
+section{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:34px 38px;margin-bottom:22px}
+section h2{font-family:var(--head);font-weight:700;font-size:28px;line-height:1.2;letter-spacing:-.4px;margin-bottom:14px;display:flex;gap:14px;align-items:baseline}
+section h2 .n{font-size:16px;color:var(--teal);font-weight:700;min-width:26px}
+section h3{font-family:var(--head);font-size:18px;font-weight:700;margin:22px 0 6px}
+section p{margin-bottom:14px;max-width:70ch}
+section ul{margin:6px 0 16px 0;padding-left:22px;max-width:70ch}
+section li{margin-bottom:8px}
+section li::marker{color:var(--teal)}
+.risk{background:var(--red-soft);border-color:#F0C3B8}
+.risk h2 .n{color:var(--red)}
+.risk li::marker{color:var(--red)}
+
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
+.c-card{background:var(--frost);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.c-card span{display:block;font-family:var(--head);font-size:14px;font-weight:500;color:var(--ink-soft);margin-bottom:4px}
+.c-card a{font-family:var(--head);font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;word-break:break-word}
+.c-card a:hover{color:var(--teal);text-decoration:underline}
+
+footer{background:var(--ink);color:#AEBBD4;font-family:var(--head);font-size:15px}
+footer div{max-width:1180px;margin:0 auto;padding:28px 24px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+footer a{color:#fff}
+
+@media (max-width:900px){
+  .hero-inner{grid-template-columns:1fr;padding-top:44px}
+  .chart{max-width:360px}
+  .wrap{grid-template-columns:1fr;gap:28px}
+  nav.toc{position:static}
+  nav.toc ol{display:flex;flex-wrap:wrap;gap:8px;border:0}
+  nav.toc a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin:0;background:var(--paper);font-size:14px}
+  nav.toc a.active{border-color:var(--teal)}
+  section{padding:26px 22px}
+  section h2{font-size:24px}
+  body{font-size:17px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.hero,nav.toc,footer{display:none}.wrap{display:block}section{break-inside:avoid;border:0}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="brand"><i aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l4-4 3 3 5-6"/></svg></i>Learn Trading With Munaaf</div>
+      <h1>Privacy Policy</h1>
+      <p class="lead">What we collect when you contact us, why we collect it, who sees it, and how you can ask us to delete it. Written in plain language.</p>
+      <div class="meta">
+        <span class="chip">Last updated: 25 November 2026</span>
+        <span class="chip">Applies to our website, ads and Telegram/WhatsApp communication</span>
+      </div>
+    </div>
+    <svg class="chart" viewBox="0 0 320 200" role="img" aria-label="Decorative candlestick chart">
+      <line x1="30" y1="60" x2="30" y2="150"/><rect class="up" x="20" y="85" width="20" height="45" rx="3"/>
+      <line x1="80" y1="40" x2="80" y2="140"/><rect class="down" x="70" y="70" width="20" height="50" rx="3"/>
+      <line x1="130" y1="70" x2="130" y2="170"/><rect class="up" x="120" y="95" width="20" height="55" rx="3"/>
+      <line x1="180" y1="30" x2="180" y2="130"/><rect class="up" x="170" y="50" width="20" height="60" rx="3"/>
+      <line x1="230" y1="50" x2="230" y2="150"/><rect class="down" x="220" y="75" width="20" height="55" rx="3"/>
+      <line x1="280" y1="10" x2="280" y2="110"/><rect class="up" x="270" y="25" width="20" height="62" rx="3"/>
+    </svg>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="toc" aria-label="Contents">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#collect">Information we collect</a></li>
+      <li><a href="#use">How we use it</a></li>
+      <li><a href="#meta">Meta Pixel, cookies and ads</a></li>
+      <li><a href="#sharing">Who we share it with</a></li>
+      <li><a href="#retention">How long we keep it</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#rights">Your rights and data deletion</a></li>
+      <li><a href="#age">Age requirement</a></li>
+      <li><a href="#risk">Trading risk disclosure</a></li>
+      <li><a href="#links">Third-party links</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <div class="notice"><strong>In short:</strong> we only collect the details you give us (like your name, phone number and email) and basic usage data from our ads and website. We do not sell your personal data. You can ask us to delete it at any time by emailing <a href="mailto:tradewithus@gmail.com">tradewithus@gmail.com</a>.</div>
+
+    <section id="overview">
+      <h2><span class="n">1</span>Overview</h2>
+      <p>This Privacy Policy explains how <strong>Learn Trading With Munaaf</strong> (“we”, “us”, “our”) collects, uses, stores and protects your personal information when you visit our website, see or click our advertisements on Facebook, Instagram or other Meta platforms, message us, or join our trading community or Telegram/WhatsApp channels.</p>
+      <p>By using our website or contacting us, you agree to the practices described here. If you do not agree, please do not use our services or submit your information.</p>
+    </section>
+
+    <section id="collect">
+      <h2><span class="n">2</span>Information we collect</h2>
+      <h3>Information you give us</h3>
+      <ul>
+        <li>Name, mobile or WhatsApp number and email address, when you fill a form, message us or ask to join.</li>
+        <li>Details you choose to share, such as your trading experience, interests and questions you ask us.</li>
+        <li>Messages and conversations with us on email, phone, WhatsApp or Telegram.</li>
+      </ul>
+      <h3>Information collected automatically</h3>
+      <ul>
+        <li>Device and browser type, operating system, language and screen size.</li>
+        <li>IP address, approximate location (city or region level) and pages visited.</li>
+        <li>How you reached us (for example, which ad you clicked) and actions you take, such as clicking a button or submitting a form.</li>
+      </ul>
+      <p><strong>We never ask for your bank login, card PIN, OTP, UPI PIN or passwords.</strong> If anyone claiming to be us asks for these, do not share them and tell us at once.</p>
+    </section>
+
+    <section id="use">
+      <h2><span class="n">3</span>How we use your information</h2>
+      <ul>
+        <li>To reply to your enquiries and give you the information, updates or learning material you asked for.</li>
+        <li>To add you to our community or channel and to contact you about it.</li>
+        <li>To measure how our website and ads perform and to improve them.</li>
+        <li>To show our ads to people who may be interested, and to measure those ads.</li>
+        <li>To prevent fraud, spam and misuse, and to follow applicable laws.</li>
+      </ul>
+      <p>We only use your information for the purposes above, or for a purpose that is clearly related and that you would reasonably expect.</p>
+    </section>
+
+    <section id="meta">
+      <h2><span class="n">4</span>Meta Pixel, cookies and advertising</h2>
+      <p>Our website uses the <strong>Meta Pixel</strong>, a tool from Meta Platforms, Inc. (and Meta Platforms Ireland Limited). It uses cookies and similar technologies to record actions you take on our site, such as viewing a page or submitting a form.</p>
+      <p>We use this data to measure and improve our ads, to build audiences of people who may be interested in our content, and to show our ads on Facebook, Instagram and other Meta products. Meta receives this data and handles it under its own <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+      <h3>Your choices</h3>
+      <ul>
+        <li>Change what ads you see through <a href="https://www.facebook.com/adpreferences" target="_blank" rel="noopener">Meta Ad Preferences</a>.</li>
+        <li>Block or delete cookies in your browser settings. Some parts of the site may work less well if you do.</li>
+        <li>Opt out of interest-based ads through <a href="https://www.youronlinechoices.com/" target="_blank" rel="noopener">Your Online Choices</a> or your device’s ad settings.</li>
+      </ul>
+      <p>We do not use the Pixel to collect sensitive information such as passwords, payment card numbers or government ID numbers, and we do not target ads using sensitive personal characteristics.</p>
+    </section>
+
+    <section id="sharing">
+      <h2><span class="n">5</span>Who we share it with</h2>
+      <p><strong>We do not sell your personal information.</strong> We share it only in these limited cases:</p>
+      <ul>
+        <li><strong>Service providers</strong> that help us run our business, such as website hosting (GitHub Pages), Meta (ads and analytics), Telegram and WhatsApp (messaging), and email providers. They may use your data only to provide their service to us.</li>
+        <li><strong>Legal reasons</strong>, when required by law, court order or a valid request from a government authority, or to protect our rights and the safety of others.</li>
+        <li><strong>Business changes</strong>, if our business is merged or transferred. We would tell you if your data is affected.</li>
+      </ul>
+    </section>
+
+    <section id="retention">
+      <h2><span class="n">6</span>How long we keep it</h2>
+      <p>We keep your information only as long as needed for the purposes in this policy, or as the law requires. When you ask us to delete your data, we delete or anonymise it within a reasonable time, normally within 30 days, unless we must keep a record by law.</p>
+    </section>
+
+    <section id="security">
+      <h2><span class="n">7</span>Security</h2>
+      <p>We use reasonable technical and organisational steps to protect your information, such as restricted access and secure connections (HTTPS). No method of transmission or storage on the internet is completely secure, so we cannot promise absolute security. Please keep your own accounts and devices protected.</p>
+    </section>
+
+    <section id="rights">
+      <h2><span class="n">8</span>Your rights and data deletion</h2>
+      <p>Depending on where you live, you may have the right to:</p>
+      <ul>
+        <li>Ask what personal information we hold about you and get a copy.</li>
+        <li>Correct information that is wrong or incomplete.</li>
+        <li>Ask us to delete your personal information.</li>
+        <li>Withdraw your consent, or object to how we use your information, at any time.</li>
+        <li>Stop receiving messages from us. Reply “STOP” or tell us on the contact details below.</li>
+      </ul>
+      <h3>How to request deletion</h3>
+      <p>Email <a href="mailto:tradewithus@gmail.com?subject=Data%20Deletion%20Request">tradewithus@gmail.com</a> with the subject “Data Deletion Request”, and include the name and phone number or email you used with us. We may ask you to confirm it is you before we act. You can also call us on <a href="tel:+918789654346">8789654346</a>.</p>
+      <p>If you want to remove data held by Meta, use your Facebook or Instagram settings under “Off-Facebook activity” or “Your activity outside Meta technologies”.</p>
+    </section>
+
+    <section id="age">
+      <h2><span class="n">9</span>Age requirement</h2>
+      <p>Our content and services are meant only for people <strong>18 years of age or older</strong>. We do not knowingly collect information from anyone under 18. If you believe a child has given us their information, contact us and we will delete it.</p>
+    </section>
+
+    <section id="risk" class="risk">
+      <h2><span class="n">10</span>Trading risk disclosure</h2>
+      <p>Trading and investing in stocks, derivatives, forex, crypto and other markets involve a high level of risk, and you can lose some or all of your money. Please read this carefully:</p>
+      <ul>
+        <li>Anything we share is for <strong>education and information only</strong>. It is not personal financial, investment, tax or legal advice.</li>
+        <li><strong>We do not guarantee any profit, return or income.</strong> Past performance does not indicate future results.</li>
+        <li>Any examples, screenshots or results shown are illustrations and are not typical or promised outcomes.</li>
+        <li>You are fully responsible for your own trading decisions. Only trade with money you can afford to lose, and speak to a licensed financial adviser where needed.</li>
+        <li>We never ask you to send money to a personal account for “guaranteed” returns. Do not trust anyone who does.</li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2><span class="n">11</span>Third-party links</h2>
+      <p>Our website, ads and messages may link to other websites or apps, such as Telegram, WhatsApp or broker platforms. We do not control them and are not responsible for their privacy practices. Please read their policies before you share any information.</p>
+    </section>
+
+    <section id="changes">
+      <h2><span class="n">12</span>Changes to this policy</h2>
+      <p>We may update this policy from time to time. The “Last updated” date at the top shows when it was last changed. If we make a major change, we will post a notice on this page. Continuing to use our services after an update means you accept the updated policy.</p>
+    </section>
+
+    <section id="contact">
+      <h2><span class="n">13</span>Contact us</h2>
+      <p>For any question about this Privacy Policy, your data or a deletion request, reach us here:</p>
+      <div class="contact-grid">
+        <div class="c-card"><span>Email</span><a href="mailto:tradewithus@gmail.com">tradewithus@gmail.com</a></div>
+        <div class="c-card"><span>Phone</span><a href="tel:+918789654346">8789654346</a></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div>
+    <span>© <span id="yr">2026</span> Learn Trading With Munaaf. All rights reserved.</span>
+    <span>Questions? <a href="mailto:tradewithus@gmail.com">tradewithus@gmail.com</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.toc a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  if(!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        links.forEach(function(l){ l.classList.remove('active'); });
+        var a = map[e.target.id];
+        if(a) a.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  document.querySelectorAll('main section').forEach(function(s){ io.observe(s); });
+})();
+</script>
+</body>
+</html>
